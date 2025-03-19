@@ -1,0 +1,66 @@
+Section A)
+2)variable_name
+3)input()
+
+Section B)
+1)x,y=6,8
+print(x,y)
+x,y=y,x
+print("after swapping",x,y)
+
+2)IS-->if it refers to same memory location
+==checks if two objects are equal
+
+3)x=4
+if x%2==0:
+    print("even number")
+else:
+    print("odd number")
+
+4)Mutable-list,set,dictionary
+Immutable-tuples,strings
+example-list-[1, 2, 3, 4, 5]
+set- {1, 2, 3, 4, 5}
+tuple-(1, 2, 3, 4, 5)
+dictionary-{1: “a”, 2: “b”, 3: “c”, 4: “d”, 5: “e”}
+string-str="hello world!!"
+print(str)
+
+5)b=[10,56,78,34,90]
+large=max(b)
+print(large)
+
+Section C)
+2)num=int(input("enter a number"))
+a,b=0,1
+print("fibonacci series:",a,",",b,end=" , ")
+for i in range(2,num): # 0 is 1st element,1 is 2nd element,2is 3rd element and printing till n or num
+    c=a+b
+    a=b
+    b=c
+    print(c,",",end=" ")
+
+3)def unique_ls(num):
+    x=set(num) #unique numbers in set
+    y=list(x)  #convert set to list
+    print(y)
+unique_ls([5,6,3,3,6,5])
+
+4)str=input("enter string:")
+vowels=0
+for i in str:
+    if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
+        vowels=vowels+1
+print("no of vowels are:")
+print(vowels)
+
+5)def factorial(n):
+    if(n==1 or n==0):
+        return 1
+    else:
+        return (n*factorial(n-1))
+no=5
+print("number:",no)
+print("factorial:",factorial(no))
+
+
