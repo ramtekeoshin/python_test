@@ -1,0 +1,22 @@
+Section A)
+1)b
+2)c
+3)b
+4)d
+5)a
+6)b
+7)b
+8)b
+9)a
+10)a
+
+Section B)
+1)The remove() method removes the first matching value from the list.
+pop removes the last element from the list.
+2)pass statement is a placeholder and is used when you do not want to execute the code.
+3)range()gives the sequence of numbers.it can take more than one arguments(start,stop,steps).
+4)deepcopy() creates completely a new copy. copy()creates a shallow copy which means the new object refers to the original objects references.
+5)in operator is used to check whether the key is present in the dictionary.
+
+Section C)
+is in the jupyter notebook
